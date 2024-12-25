@@ -1,0 +1,96 @@
+﻿@model ApplicationDevelopment.WebMVC.Models.CandidateViewModel
+@using ApplicationDevelopment.WebMVC.Enums
+
+@{
+    ViewData["Title"] = "Create";
+    bool isCreate = Model == null;
+    string buttonName = isCreate ? "Create" : "Update";
+    string actionName = isCreate ? "Create" : "Edit";
+}
+
+<!-- Christmas-themed title -->
+<h1 style="color: #ff0000; font-family: 'Snowburst One', cursive; text-align: center;">
+    🎄 Create Candidate 🎅
+</h1>
+
+<hr style="border-color: #ff0000; border-width: 2px;" />
+
+<div class="row">
+    <!-- Christmas-themed form -->
+    <div class="col-md-4" style="background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.2);">
+        <form asp-action="@actionName">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input asp-for="Id" type="hidden" class="form-control" />
+            <input asp-for="Name" type="hidden" class="form-control" />
+
+            <div class="form-group">
+                <label asp-for="FullName" class="control-label" style="color: #008000;"></label>
+                <input asp-for="FullName" class="form-control" style="background-color: rgba(255,255,255,0.9);" />
+                <span asp-validation-for="FullName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group" style="display: flex; justify-content: space-around; color: #008000;">
+                @foreach (var item in Enum.GetValues(typeof(GenderEnum)))
+                {
+                    string checkedStatus = (!isCreate && (GenderEnum)item == Model.Gender) ? "checked" : "";
+                    <label class="control-label">
+                        <input name="Gender" type="radio" value="@((GenderEnum)item)" @checkedStatus />
+                        🎅 @item.ToString()
+                    </label>
+                }
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateOfBirth" class="control-label" style="color: #008000;"></label>
+                <input asp-for="DateOfBirth" type="date" class="form-control" style="background-color: rgba(255,255,255,0.9);" />
+                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label" style="color: #008000;"></label>
+                <input asp-for="Email" class="form-control" style="background-color: rgba(255,255,255,0.9);" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Phone" class="control-label" style="color: #008000;"></label>
+                <input asp-for="Phone" class="form-control" style="background-color: rgba(255,255,255,0.9);" />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Occupation" class="control-label" style="color: #008000;"></label>
+                <select asp-for="Occupation" asp-items="ViewBag.Occupations" class="form-control" style="background-color: rgba(255,255,255,0.9);"></select>
+                <span asp-validation-for="Occupation" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="text-align: center">
+                <input type="submit" value="@buttonName" class="btn btn-primary" style="background-color: #ff0000; border-color: #ff0000; color: #fff;" />
+                <p style="color: #ff0000; margin-top: 10px;">🎄 Merry Christmas! 🎄</p>
+            </div>
+        </form>
+    </div>
+
+    <!-- Christmas-themed candidate list -->
+    <div class="col-md-8" style="background-color: rgba(255,255,255,0.8); padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.2);">
+        <h2 style="text-align: center; color: #ff0000;">Candidate List 🎅</h2>
+        @await Component.InvokeAsync("CandidateList")
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+<!-- Christmas-themed background -->
+<style>
+    body {
+        background: url('https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/07/hinh-anh-giang-sinh-cute.jpg') no-repeat center center fixed;
+        background-size: cover;
+        color: #fff;
+    }
+    .form-control {
+        border: 1px solid #ff0000;
+    }
+    .btn-primary:hover {
+        background-color: #008000;
+        border-color: #008000;
+    }
+</style>

@@ -1,0 +1,167 @@
+﻿@using ApplicationDevelopment.WebMVC.Commons
+@model ApplicationDevelopment.WebMVC.Models.JobViewModel
+
+@{
+    ViewData["Title"] = "Create";
+    var isCreate = Model == null || Model.Id == Guid.Empty;
+    var actionString = isCreate ? "Create" : "Edit";
+    var buttonName = isCreate ? "Create" : "Update";
+}
+
+<!-- Christmas-themed title -->
+<h1 style="color: #ff0000; font-family: 'Snowburst One', cursive; text-align: center;">
+    🎄 Create a Job 🎅
+</h1>
+<button type="button" class="btn btn-primary" onclick="openModalCreateJobType();" style="background-color: #008000; border-color: #008000; margin-bottom: 20px;">
+    Create a Job Type
+</button>
+<hr style="border-color: #ff0000; border-width: 2px;" />
+
+<div class="row">
+    <!-- Christmas-themed form -->
+    <div class="col-md-4" style="background-color: rgba(255, 255, 255, 0.9); padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.2);">
+        <form asp-action="@actionString">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input asp-for="Id" type="hidden" class="form-control" />
+
+            <div id="announcement" style="color: #ff0000;">@ViewData[ViewBags.ANNOUNCEMENT]</div>
+
+            <div class="form-group">
+                <label asp-for="Name" class="control-label" style="color: #008000;"></label>
+                <input asp-for="Name" class="form-control" style="background-color: rgba(255,255,255,0.9);" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label" style="color: #008000;"></label>
+                <textarea asp-for="Description" class="form-control" style="background-color: rgba(255,255,255,0.9);"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Requirements" class="control-label" style="color: #008000;"></label>
+                <textarea asp-for="Requirements" class="form-control" style="background-color: rgba(255,255,255,0.9);"></textarea>
+                <span asp-validation-for="Requirements" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="JobTypeId" class="control-label" style="color: #008000;">Job Type</label>
+                <select asp-for="JobTypeId" asp-items="ViewBag.JobTypes" class="form-control" style="background-color: rgba(255,255,255,0.9);"></select>
+                <span asp-validation-for="JobTypeId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group" style="text-align: center;">
+                <input type="submit" value="@buttonName" class="btn btn-primary" style="background-color: #ff0000; border-color: #ff0000; color: #fff;" />
+                <p style="color: #ff0000; margin-top: 10px;">🎄 Merry Christmas! 🎄</p>
+            </div>
+        </form>
+    </div>
+
+    <!-- Christmas-themed job list -->
+    <div id="divJobList" class="col-md-8" style="background-color: rgba(255, 255, 255, 0.9); padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.2);">
+        <h2 style="text-align: center; color: #ff0000;">Job List 🎅</h2>
+        @await Component.InvokeAsync("JobList")
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        // Add any initializations if needed
+    });
+
+    function openModalCreateJobType() {
+        $.ajax({
+            type: "GET",
+            url: '@Url.Action("Create", "JobType")',
+            success: function (data) {
+                openModal("Job Type", data, "modal-lg");
+            },
+            error: function (error) {
+                console.error("Error fetching job type creation modal: ", error);
+            }
+        });
+    }
+
+    function createJobType() {
+        let formJobType = document.getElementById("formJobType");
+        if (!formJobType) return;
+
+        let jobTypeData = {
+            id: formJobType.querySelector("input[id='Id']").value,
+            name: formJobType.querySelector("input[id='Name']").value,
+            description: formJobType.querySelector("textarea[id='Description']").value
+        };
+
+        $.ajax({
+            type: "POST",
+            url: '@Url.Action("Create", "JobType")',
+            data: { jobTypeVM: jobTypeData },
+            success: function (response) {
+                console.log("Job Type Created:", response);
+                closeModal();
+                reloadJobTypeList();
+            },
+            error: function (error) {
+                console.error("Error creating job type:", error);
+            }
+        });
+    }
+
+    function deleteJob(idJob) {
+        $.ajax({
+            type: "POST",
+            url: '@Url.Action("Delete", "Job")',
+            data: { idJob: idJob },
+            success: function (response) {
+                console.log("Job deleted: ", response);
+                reloadJobList();
+            },
+            error: function (error) {
+                console.error("Error deleting job:", error);
+            }
+        });
+    }
+
+    function reloadJobList() {
+        $.ajax({
+            type: "GET",
+            url: '@Url.Action("GetAll", "Job")',
+            success: function (response) {
+                document.getElementById("divJobList").innerHTML = response;
+            },
+            error: function (error) {
+                console.error("Error reloading job list: ", error);
+            }
+        });
+    }
+
+    function reloadJobTypeList() {
+        $.ajax({
+            type: "GET",
+            url: '@Url.Action("GetAll", "JobType")',
+            success: function (response) {
+                // Handle the response for reloading job types list if needed
+                console.log("Job Type list updated.");
+            },
+            error: function (error) {
+                console.error("Error reloading job type list: ", error);
+            }
+        });
+    }
+</script>
+}
+
+<!-- Christmas-themed background -->
+<style>
+    body {
+        background: url('https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/07/hinh-anh-giang-sinh-cute.jpg') no-repeat center center fixed;
+        background-size: cover;
+        color: #fff;
+    }
+    .form-control {
+        border: 1px solid #ff0000;
+    }
+    .btn-primary:hover {
+        background-color: #008000;
+        border-color: #008000;
+    }
+</style>

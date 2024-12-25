@@ -1,0 +1,46 @@
+﻿@{
+ViewData["Title"] = "Home Page";
+}
+
+<!-- Christmas-themed header -->
+<div class="text-center" style="background-color: rgba(255, 255, 255, 0.9); padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.2);">
+    <h1 class="display-4" style="color: #ff0000; font-family: 'Snowburst One', cursive;">
+        🎄 Welcome to the Christmas Dashboard 🎅
+    </h1>
+    <p>
+        Learn about <a href="https://learn.microsoft.com/aspnet/core" style="color: #008000;">building Web apps with ASP.NET Core</a>.
+    </p>
+</div>
+
+<div class="row" style="margin-top: 20px;">
+    <!-- Christmas-themed Job List -->
+    <div class="col-md-6 col-sm-12" style="background-color: rgba(255, 255, 255, 0.9); padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.2); margin-bottom: 20px;">
+        <h3 style="color: #ff0000; text-align: center;">🎁 List of Jobs Created 🎁</h3>
+        @await Component.InvokeAsync("JobList", new { isForHome = true })
+    </div>
+
+    <!-- Christmas-themed Job Type List -->
+    <div class="col-md-6 col-sm-12" style="background-color: rgba(255, 255, 255, 0.9); padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.2);">
+        <h3 style="color: #ff0000; text-align: center;">🎄 List of Job Types 🎄</h3>
+        @await Component.InvokeAsync("JobTypeList")
+    </div>
+</div>
+
+<!-- Christmas-themed background -->
+<style>
+    body {
+        background: url('https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/07/hinh-anh-giang-sinh-cute.jpg') no-repeat center center fixed;
+        background-size: cover;
+        color: #fff;
+    }
+    h3 {
+        font-family: 'Snowburst One', cursive;
+    }
+    a {
+        font-weight: bold;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #ff0000;
+    }
+</style>

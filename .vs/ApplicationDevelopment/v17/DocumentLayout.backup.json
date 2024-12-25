@@ -1,0 +1,363 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|c:\\users\\destr\\downloads\\jobmatchfpt-dongnam\\jobmatchfpt-dongnam\\applicationdevelopment.webmvc\\views\\jobtype\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|solutionrelative:applicationdevelopment.webmvc\\views\\jobtype\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|c:\\users\\destr\\downloads\\jobmatchfpt-dongnam\\jobmatchfpt-dongnam\\applicationdevelopment.webmvc\\data\\entities\\jobtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|solutionrelative:applicationdevelopment.webmvc\\data\\entities\\jobtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|c:\\users\\destr\\downloads\\jobmatchfpt-dongnam\\jobmatchfpt-dongnam\\applicationdevelopment.webmvc\\controllers\\jobtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|solutionrelative:applicationdevelopment.webmvc\\controllers\\jobtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|c:\\users\\destr\\downloads\\jobmatchfpt-dongnam\\jobmatchfpt-dongnam\\applicationdevelopment.webmvc\\views\\job\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|solutionrelative:applicationdevelopment.webmvc\\views\\job\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|c:\\users\\destr\\downloads\\jobmatchfpt-dongnam\\jobmatchfpt-dongnam\\applicationdevelopment.webmvc\\data\\entities\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|solutionrelative:applicationdevelopment.webmvc\\data\\entities\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|c:\\users\\destr\\downloads\\jobmatchfpt-dongnam\\jobmatchfpt-dongnam\\applicationdevelopment.webmvc\\controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|solutionrelative:applicationdevelopment.webmvc\\controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|c:\\users\\destr\\downloads\\jobmatchfpt-dongnam\\jobmatchfpt-dongnam\\applicationdevelopment.webmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|solutionrelative:applicationdevelopment.webmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|c:\\users\\destr\\downloads\\jobmatchfpt-dongnam\\jobmatchfpt-dongnam\\applicationdevelopment.webmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|solutionrelative:applicationdevelopment.webmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|c:\\users\\destr\\downloads\\jobmatchfpt-dongnam\\jobmatchfpt-dongnam\\applicationdevelopment.webmvc\\views\\candidate\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|solutionrelative:applicationdevelopment.webmvc\\views\\candidate\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|c:\\users\\destr\\downloads\\jobmatchfpt-dongnam\\jobmatchfpt-dongnam\\applicationdevelopment.webmvc\\data\\entities\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|solutionrelative:applicationdevelopment.webmvc\\data\\entities\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|c:\\users\\destr\\downloads\\jobmatchfpt-dongnam\\jobmatchfpt-dongnam\\applicationdevelopment.webmvc\\controllers\\candidatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|solutionrelative:applicationdevelopment.webmvc\\controllers\\candidatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|c:\\users\\destr\\downloads\\jobmatchfpt-dongnam\\jobmatchfpt-dongnam\\applicationdevelopment.webmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|solutionrelative:applicationdevelopment.webmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|c:\\users\\destr\\downloads\\jobmatchfpt-dongnam\\jobmatchfpt-dongnam\\applicationdevelopment.webmvc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|solutionrelative:applicationdevelopment.webmvc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|c:\\users\\destr\\downloads\\jobmatchfpt-dongnam\\jobmatchfpt-dongnam\\applicationdevelopment.webmvc\\views\\enterprise\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|solutionrelative:applicationdevelopment.webmvc\\views\\enterprise\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|c:\\users\\destr\\downloads\\jobmatchfpt-dongnam\\jobmatchfpt-dongnam\\applicationdevelopment.webmvc\\data\\entities\\enterprise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|solutionrelative:applicationdevelopment.webmvc\\data\\entities\\enterprise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|c:\\users\\destr\\downloads\\jobmatchfpt-dongnam\\jobmatchfpt-dongnam\\applicationdevelopment.webmvc\\data\\entities\\cv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|solutionrelative:applicationdevelopment.webmvc\\data\\entities\\cv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|c:\\users\\destr\\downloads\\jobmatchfpt-dongnam\\jobmatchfpt-dongnam\\applicationdevelopment.webmvc\\controllers\\enterprisecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|solutionrelative:applicationdevelopment.webmvc\\controllers\\enterprisecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|c:\\users\\destr\\downloads\\jobmatchfpt-dongnam\\jobmatchfpt-dongnam\\applicationdevelopment.webmvc\\data\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|solutionrelative:applicationdevelopment.webmvc\\data\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|c:\\users\\destr\\downloads\\jobmatchfpt-dongnam\\jobmatchfpt-dongnam\\applicationdevelopment.webmvc\\data\\migrations\\20241125095334_add_position_to_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|solutionrelative:applicationdevelopment.webmvc\\data\\migrations\\20241125095334_add_position_to_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|c:\\users\\destr\\downloads\\jobmatchfpt-dongnam\\jobmatchfpt-dongnam\\applicationdevelopment.webmvc\\data\\migrations\\20241127074031_add_6tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|solutionrelative:applicationdevelopment.webmvc\\data\\migrations\\20241127074031_add_6tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|c:\\users\\destr\\downloads\\jobmatchfpt-dongnam\\jobmatchfpt-dongnam\\applicationdevelopment.webmvc\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDAA57D5-502B-471F-96FA-299F2D2BE852}|ApplicationDevelopment.WebMVC\\ApplicationDevelopment.WebMVC.csproj|solutionrelative:applicationdevelopment.webmvc\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ApplicationDevelopment.WebMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ApplicationDevelopment.WebMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T08:45:16.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Views\\JobType\\Create.cshtml",
+              "RelativeDocumentMoniker": "ApplicationDevelopment.WebMVC\\Views\\JobType\\Create.cshtml",
+              "ToolTip": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Views\\JobType\\Create.cshtml",
+              "RelativeToolTip": "ApplicationDevelopment.WebMVC\\Views\\JobType\\Create.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwBIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T08:41:59.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JobTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Controllers\\JobTypeController.cs",
+              "RelativeDocumentMoniker": "ApplicationDevelopment.WebMVC\\Controllers\\JobTypeController.cs",
+              "ToolTip": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Controllers\\JobTypeController.cs",
+              "RelativeToolTip": "ApplicationDevelopment.WebMVC\\Controllers\\JobTypeController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T08:40:40.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JobType.cs",
+              "DocumentMoniker": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Data\\Entities\\JobType.cs",
+              "RelativeDocumentMoniker": "ApplicationDevelopment.WebMVC\\Data\\Entities\\JobType.cs",
+              "ToolTip": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Data\\Entities\\JobType.cs",
+              "RelativeToolTip": "ApplicationDevelopment.WebMVC\\Data\\Entities\\JobType.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T08:38:33.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Views\\Job\\Create.cshtml",
+              "RelativeDocumentMoniker": "ApplicationDevelopment.WebMVC\\Views\\Job\\Create.cshtml",
+              "ToolTip": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Views\\Job\\Create.cshtml",
+              "RelativeToolTip": "ApplicationDevelopment.WebMVC\\Views\\Job\\Create.cshtml",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAQwJ8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T08:35:48.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Job.cs",
+              "DocumentMoniker": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Data\\Entities\\Job.cs",
+              "RelativeDocumentMoniker": "ApplicationDevelopment.WebMVC\\Data\\Entities\\Job.cs",
+              "ToolTip": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Data\\Entities\\Job.cs",
+              "RelativeToolTip": "ApplicationDevelopment.WebMVC\\Data\\Entities\\Job.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA0wBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T08:35:08.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JobController.cs",
+              "DocumentMoniker": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Controllers\\JobController.cs",
+              "RelativeDocumentMoniker": "ApplicationDevelopment.WebMVC\\Controllers\\JobController.cs",
+              "ToolTip": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Controllers\\JobController.cs",
+              "RelativeToolTip": "ApplicationDevelopment.WebMVC\\Controllers\\JobController.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAywLAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T08:30:28.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Views\\Candidate\\Create.cshtml",
+              "RelativeDocumentMoniker": "ApplicationDevelopment.WebMVC\\Views\\Candidate\\Create.cshtml",
+              "ToolTip": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Views\\Candidate\\Create.cshtml",
+              "RelativeToolTip": "ApplicationDevelopment.WebMVC\\Views\\Candidate\\Create.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T07:18:15.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Program.cs",
+              "RelativeDocumentMoniker": "ApplicationDevelopment.WebMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Program.cs",
+              "RelativeToolTip": "ApplicationDevelopment.WebMVC\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T18:33:52.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ApplicationDevelopment.WebMVC\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\appsettings.Development.json",
+              "RelativeToolTip": "ApplicationDevelopment.WebMVC\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-25T07:32:24.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CV.cs",
+              "DocumentMoniker": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Data\\Entities\\CV.cs",
+              "RelativeDocumentMoniker": "ApplicationDevelopment.WebMVC\\Data\\Entities\\CV.cs",
+              "ToolTip": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Data\\Entities\\CV.cs",
+              "RelativeToolTip": "ApplicationDevelopment.WebMVC\\Data\\Entities\\CV.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T07:17:00.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Candidate.cs",
+              "DocumentMoniker": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Data\\Entities\\Candidate.cs",
+              "RelativeDocumentMoniker": "ApplicationDevelopment.WebMVC\\Data\\Entities\\Candidate.cs",
+              "ToolTip": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Data\\Entities\\Candidate.cs",
+              "RelativeToolTip": "ApplicationDevelopment.WebMVC\\Data\\Entities\\Candidate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T07:16:28.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CandidateController.cs",
+              "DocumentMoniker": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Controllers\\CandidateController.cs",
+              "RelativeDocumentMoniker": "ApplicationDevelopment.WebMVC\\Controllers\\CandidateController.cs",
+              "ToolTip": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Controllers\\CandidateController.cs",
+              "RelativeToolTip": "ApplicationDevelopment.WebMVC\\Controllers\\CandidateController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAwHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T19:35:38.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Enterprise.cs",
+              "DocumentMoniker": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Data\\Entities\\Enterprise.cs",
+              "RelativeDocumentMoniker": "ApplicationDevelopment.WebMVC\\Data\\Entities\\Enterprise.cs",
+              "ToolTip": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Data\\Entities\\Enterprise.cs",
+              "RelativeToolTip": "ApplicationDevelopment.WebMVC\\Data\\Entities\\Enterprise.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T19:27:38.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "ApplicationDevelopment.WebMVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\appsettings.json",
+              "RelativeToolTip": "ApplicationDevelopment.WebMVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-24T18:37:57.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EnterpriseController.cs",
+              "DocumentMoniker": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Controllers\\EnterpriseController.cs",
+              "RelativeDocumentMoniker": "ApplicationDevelopment.WebMVC\\Controllers\\EnterpriseController.cs",
+              "ToolTip": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Controllers\\EnterpriseController.cs",
+              "RelativeToolTip": "ApplicationDevelopment.WebMVC\\Controllers\\EnterpriseController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowFMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T19:24:52.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Data\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "ApplicationDevelopment.WebMVC\\Data\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Data\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "ApplicationDevelopment.WebMVC\\Data\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAADYBAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T19:20:46.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Views\\Enterprise\\Create.cshtml",
+              "RelativeDocumentMoniker": "ApplicationDevelopment.WebMVC\\Views\\Enterprise\\Create.cshtml",
+              "ToolTip": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Views\\Enterprise\\Create.cshtml",
+              "RelativeToolTip": "ApplicationDevelopment.WebMVC\\Views\\Enterprise\\Create.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwEgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T19:29:35.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20241125095334_Add_Position_To_User.cs",
+              "DocumentMoniker": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Data\\Migrations\\20241125095334_Add_Position_To_User.cs",
+              "RelativeDocumentMoniker": "ApplicationDevelopment.WebMVC\\Data\\Migrations\\20241125095334_Add_Position_To_User.cs",
+              "ToolTip": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Data\\Migrations\\20241125095334_Add_Position_To_User.cs",
+              "RelativeToolTip": "ApplicationDevelopment.WebMVC\\Data\\Migrations\\20241125095334_Add_Position_To_User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T19:20:43.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20241127074031_Add_6Tables.cs",
+              "DocumentMoniker": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Data\\Migrations\\20241127074031_Add_6Tables.cs",
+              "RelativeDocumentMoniker": "ApplicationDevelopment.WebMVC\\Data\\Migrations\\20241127074031_Add_6Tables.cs",
+              "ToolTip": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Data\\Migrations\\20241127074031_Add_6Tables.cs",
+              "RelativeToolTip": "ApplicationDevelopment.WebMVC\\Data\\Migrations\\20241127074031_Add_6Tables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T19:20:41.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ApplicationDevelopment.WebMVC\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\destr\\Downloads\\JobmatchFpt-dongnam\\JobmatchFpt-dongnam\\ApplicationDevelopment.WebMVC\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ApplicationDevelopment.WebMVC\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T18:13:24.941Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
